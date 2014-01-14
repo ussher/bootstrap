@@ -11,6 +11,14 @@
     <p><a href="{$jamroom_url}/example" class="btn btn-primary btn-lg" role="button">Examples elements here &raquo;</a></p>
 </div>
 
+{* list of profiles*}
+
+
+    {jrCore_list module="jrProfile" template="an_example_list_template.tpl"}
+
+
+
+
 </div> <!-- /container -->
 
 
