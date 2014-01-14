@@ -462,3 +462,41 @@
     padding: 0;
     width: auto;
 }
+
+
+.main-container {
+	padding-top: 60px;
+}
+
+.main-container > div > div > .carousel {
+	margin-top: 10px;
+}
+#profile .title h1 {
+    margin-top: 0;
+}
+#profile .item {
+    padding-top: 8px;
+    padding-right: 25px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+}
+#profile .item h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* get rid of the br output by modules */
+#profile .title br {
+    display:none;
+}
+
+/* Online Status rules */
+/* overrides the h2 username for the online status output by jrUser */
+#profile .online_status_user h2 {
+    margin:0;
+    font-size: 18px;
+}
+/* get rid of the br output by jrUser */
+#profile .online_status_user br {
+    display:none;
+}
