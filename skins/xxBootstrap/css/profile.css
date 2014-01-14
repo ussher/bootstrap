@@ -500,3 +500,86 @@
 #profile .online_status_user br {
     display:none;
 }
+
+
+/* tabs override */
+/* might be better to just bring in the jrElastic tabs styles */
+/* we dont get to do the fancy bootstrap nav stuff anyway */
+
+.page_tab_bar {
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
+.page_tab_bar:before,
+.page_tab_bar:after {
+  display: table;
+  content: " ";
+}
+
+.page_tab_bar:after {
+  clear: both;
+}
+
+.nav:before,
+.page_tab_bar:after {
+  display: table;
+  content: " ";
+}
+
+.page_tab_bar:after {
+  clear: both;
+}
+
+.page_tab_bar > li {
+  position: relative;
+  display: block;
+}
+
+.page_tab_bar > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+.page_tab_bar > li > a:hover,
+.page_tab_bar > li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+
+
+.nav-tabs, .page_tab_bar {
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-tabs > li, .page_tab_bar > li {
+  float: left;
+  margin-bottom: -1px;
+}
+
+.nav-tabs > li > a, .page_tab_bar > li > a {
+  margin-right: 2px;
+  line-height: 1.428;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+
+.nav-tabs > li > a:hover, .page_tab_bar > li > a:hover {
+  border-color: #eeeeee #eeeeee #dddddd;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus, 
+.page_tab_bar > li.page_tab_active > a,
+.page_tab_bar > li.page_tab_active > a:hover,
+.page_tab_bar > li.page_tab_active > a:focus {
+  color: #555555;
+  cursor: default;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
