@@ -7,7 +7,7 @@
 
 
         <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron" style="background: url('http://jr5a.iixxii.cc/profile/image/profile_image/1/xxxlarge/_v=1389434576') no-repeat top center;background-size: 100%">
+        <div class="jumbotron" style="background: url('{$jamroom_url}/profile/image/profile_image/{$_profile_id}/xxxlarge') no-repeat top center;background-size: 100%">
             <div class="block_config" style="margin-top:0">
                 {jrCore_module_function function="jrFollower_button" profile_id=$_profile_id title="Follow This Profile"}
                 {jrCore_item_update_button module="jrProfile" view="settings/profile_id=`$_profile_id`" profile_id=$_profile_id item_id=$_profile_id title="Update Profile"}
