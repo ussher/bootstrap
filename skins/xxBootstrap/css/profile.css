@@ -456,8 +456,6 @@
 }
 
 #profile .item .container {
-    margin: 0;
-    padding: 0;
     width: auto;
 }
 
@@ -469,4 +467,84 @@
     font-size: 18px;
     font-weight: bold;
     text-transform: capitalize;
+}
+
+
+/* tabs override */
+/* might be better to just bring in the jrElastic tabs styles */
+/* we dont get to do the fancy bootstrap nav stuff anyway */
+
+#profile .page_tab_bar {
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
+#profile .page_tab_bar:before,
+#profile .page_tab_bar:after {
+  display: table;
+  content: " ";
+}
+
+#profile .page_tab_bar:after {
+  clear: both;
+}
+
+#profile .nav:before,
+#profile .page_tab_bar:after {
+  display: table;
+  content: " ";
+}
+
+#profile .page_tab_bar:after {
+  clear: both;
+}
+
+#profile .page_tab_bar > li {
+  position: relative;
+  display: block;
+}
+
+#profile .page_tab_bar > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+#profile .page_tab_bar > li > a:hover,
+#profile .page_tab_bar > li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+
+
+#profile .page_tab_bar {
+  border-bottom: 1px solid #ddd;
+}
+
+#profile .page_tab_bar > li {
+  float: left;
+  margin-bottom: -1px;
+}
+
+#profile .page_tab_bar > li > a {
+  margin-right: 2px;
+  line-height: 1.428;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+
+#profile .page_tab_bar > li > a:hover {
+  border-color: #eeeeee #eeeeee #dddddd;
+}
+
+#profile .page_tab_bar > li.page_tab_active > a,
+#profile .page_tab_bar > li.page_tab_active > a:hover,
+#profile .page_tab_bar > li.page_tab_active > a:focus {
+  color: #555555;
+  cursor: default;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
 }
