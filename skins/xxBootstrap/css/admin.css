@@ -550,6 +550,11 @@
     margin: 0;
 }
 
+#admin_container.container {
+    width: auto;
+}
+
+
 /* @title Background Color of container */
 /* @help the background color of the admin box*/
 #admin_container .row {

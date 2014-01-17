@@ -663,3 +663,83 @@
     font-size: 11px;
     text-transform: none;
 }
+
+
+/* tabs override */
+/* might be better to just bring in the jrElastic tabs styles */
+/* we dont get to do the fancy bootstrap nav stuff anyway */
+
+.jrform .page_content .page_tab_bar {
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
+.jrform .page_content .page_tab_bar:before,
+.jrform .page_content .page_tab_bar:after {
+  display: table;
+  content: " ";
+}
+
+.jrform .page_content .page_tab_bar:after {
+  clear: both;
+}
+
+.jrform .page_content .nav:before,
+.jrform .page_content .page_tab_bar:after {
+  display: table;
+  content: " ";
+}
+
+.jrform .page_content .page_tab_bar:after {
+  clear: both;
+}
+
+.jrform .page_content .page_tab_bar > li {
+  position: relative;
+  display: block;
+}
+
+.jrform .page_content .page_tab_bar > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+.jrform .page_content .page_tab_bar > li > a:hover,
+.jrform .page_content .page_tab_bar > li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+
+
+.jrform .page_content .page_tab_bar {
+  border-bottom: 1px solid #ddd;
+}
+
+.jrform .page_content .page_tab_bar > li {
+  float: left;
+  margin-bottom: -1px;
+}
+
+.jrform .page_content .page_tab_bar > li > a {
+  margin-right: 2px;
+  line-height: 1.428;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+
+.jrform .page_content .page_tab_bar > li > a:hover {
+  border-color: #eeeeee #eeeeee #dddddd;
+}
+
+.jrform .page_content .page_tab_bar > li.page_tab_active > a,
+.jrform .page_content .page_tab_bar > li.page_tab_active > a:hover,
+.jrform .page_content .page_tab_bar > li.page_tab_active > a:focus {
+  color: #555555;
+  cursor: default;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
