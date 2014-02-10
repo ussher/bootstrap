@@ -37,14 +37,6 @@ $(document).ready(function(){ldelim}
 </script>
 {/if}
 
-    <!-- Bootstrap core CSS -->
-    <link href="{$jamroom_url}/skins/xxBootstrap/css/bootstrap.css" rel="stylesheet">
-    <!-- Bootstrap theme -->
-    <link href="{$jamroom_url}/skins/xxBootstrap/css/bootstrap-theme.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="{$jamroom_url}/skins/xxBootstrap/css/carousel.css" rel="stylesheet">
-
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
