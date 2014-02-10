@@ -29,6 +29,8 @@ function xxBootstrap_skin_init()
     jrCore_register_module_feature('jrCore','css','xxBootstrap','admin.css');
     jrCore_register_module_feature('jrCore','css','xxBootstrap','form.css');
     jrCore_register_module_feature('jrCore','css','xxBootstrap','profile.css');
+    jrCore_register_module_feature('jrCore','css','xxBootstrap','bootstrap.css');
+    jrCore_register_module_feature('jrCore','css','xxBootstrap','bootstrap-theme.css');
 
     // Register our Javascript files with the core
     jrCore_register_module_feature('jrCore','javascript','xxBootstrap','bootstrap.min.js');
