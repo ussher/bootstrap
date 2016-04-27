@@ -78,7 +78,7 @@ function xxBootstrap_view_results_listener($_data, $_user, $_conf, $_args, $even
 function xxBootstrap_template_variables_listener($_data, $_user, $_conf, $_args, $event)
 {
 
-    if (!isset($_args['jr_template_directory']) && $_args['jr_template_directory'] != "xxBootstrap") {
+    if (!isset($_args['jr_template_directory']) && $_args['jr_template_directory'] != $_conf['jrCore_active_skin'] ) {
         jrCore_set_flag('xxBootstrap_replace', true);
     }
     return $_data;
