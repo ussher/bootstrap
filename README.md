@@ -1,4 +1,4 @@
-Bootstrap 3.0.3 skin for Jamroom 5
+Bootstrap 3.3.6 skin for Jamroom 5
 =========
 
 This is a base blank skin for building Jamroom 5 skins on top of.
@@ -13,7 +13,7 @@ Skins built on top of this base can be released into the Jamroom marketplace (ht
 
 Twitter Bootstrap Copyright and license: Code and documentation copyright 2011-2014 Twitter, Inc. Code released under [the MIT license](LICENSE). Docs released under [Creative Commons](docs/LICENSE).
 
-Twitter Bootstrap Authors: 
+Twitter Bootstrap Authors:
 **Mark Otto**: <http://twitter.com/mdo> <http://github.com/mdo>
 **Jacob Thornton**: <http://twitter.com/fat> <http://github.com/fat>
 
@@ -26,10 +26,10 @@ Screenshots
 -----------
 
 ### screenshot of the front end
-![screenshot1](http://hostsaba.com/images/github/screenshot_bootstrap1.png)
+![screenshot1](skins/img/screenshot1.jpg)
 
 ### screenshot of the profiles section
-![screenshot2](http://hostsaba.com/images/github/screenshot_bootstrap2.png)
+![screenshot2](skins/img/screenshot2.jpg)
 
 ### screenshot of the admin section
-![screenshot3](http://hostsaba.com/images/github/screenshot_bootstrap3.png)
+![screenshot3](skins/img/screenshot3.jpg)
