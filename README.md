@@ -26,10 +26,10 @@ Screenshots
 -----------
 
 ### screenshot of the front end
-![screenshot1](skins/img/screenshot1.jpg)
+![screenshot1](skins/xxBootstrap/img/screenshot1.jpg)
 
 ### screenshot of the profiles section
-![screenshot2](skins/img/screenshot2.jpg)
+![screenshot2](skins/xxBootstrap/img/screenshot2.jpg)
 
 ### screenshot of the admin section
-![screenshot3](skins/img/screenshot3.jpg)
+![screenshot3](skins/xxBootstrap/img/screenshot3.jpg)
