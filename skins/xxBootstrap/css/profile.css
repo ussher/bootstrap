@@ -10,7 +10,7 @@
 }
 
 #profile .breadcrumbs a:hover {
-    color: #333;
+    color: #333333;
     text-decoration: underline;
 }
 
@@ -51,12 +51,12 @@
 }
 
 #profile .profile_name_box {
-    background-color: #333;
+    background-color: #333333;
     vertical-align: middle;
     text-transform: capitalize;
     padding: 12px;
     margin: 12px;
-    border: 1px solid #ddd;
+    border: 1px solid #DDDDDD;
 }
 
 #profile .profile_name {
@@ -90,7 +90,7 @@
     top: 15px;
     left: 15px;
     padding: 3px;
-    border: 1px solid #ddd;
+    border: 1px solid #DDDDDD;
     display: none;
     opacity: 0.8;
 }
@@ -156,7 +156,7 @@
     border-width: 1px;
     vertical-align: middle;
     text-transform: capitalize;
-    color: #333;
+    color: #333333;
     padding: 12px;
 }
 
@@ -180,7 +180,7 @@
 }
 
 #profile .info a:hover {
-    color: #333;
+    color: #333333;
     text-decoration: underline;
 }
 
@@ -195,7 +195,7 @@
 }
 
 #profile .info_c a:hover {
-    color: #333;
+    color: #333333;
     text-decoration: underline;
 }
 
@@ -304,21 +304,21 @@
 }
 
 #profile .ioutline {
-    border: 1px solid #DDD;
+    border: 1px solid #DDDDDD;
     vertical-align: middle;
     margin: 1px;
     padding: 1px;
 }
 
 #profile .iloutline {
-    border: 1px solid #DDD;
+    border: 1px solid #DDDDDD;
     vertical-align: middle;
     margin: 1px;
     padding: 1px;
 }
 
 #profile .iloutline:hover {
-    border: 1px solid #999;
+    border: 1px solid #999999;
 }
 
 /* core_form_button.css */
@@ -326,18 +326,18 @@
     color: #484848;
     text-decoration: none;
     text-transform: capitalize;
-    text-shadow: 0 1px 0 #fff;
+    text-shadow: 0 1px 0 #FFFFFF;
     font: bold 12px Verdana, sans-serif;
     line-height: 28px;
     height: 28px;
     padding: 0 7px;
-    margin: 0 2px;
-    background: #f0f0f0;
+    margin: 2px 2px;
+    background: #F0F0F0;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#d1d1d1'); /* for IE */
     background: -ms-linear-gradient(top, #F7F7F7 1%, #D1D1D1 100%); /* IE 10 */
-    background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#d1d1d1)); /* for webkit browsers */
-    background: -moz-linear-gradient(top, #f7f7f7, #d1d1d1); /* for firefox 3.6+ */
-    border: solid 1px #7f7f7f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F7F7F7), to(#D1D1D1)); /* for webkit browsers */
+    background: -moz-linear-gradient(top, #F7F7F7, #D1D1D1); /* for firefox 3.6+ */
+    border: solid 1px #7F7F7F;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -351,28 +351,28 @@
 
 #profile .form_button:hover {
     color: #282828;
-    text-shadow: 0 0 0 #fff;
+    text-shadow: 0 0 0 #FFFFFF;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#CCCCCC');
     background: -ms-linear-gradient(top, #FFFFFF 1%, #CCCCCC 100%);
-    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#CCCCCC));
-    background: -moz-linear-gradient(top, #ffffff, #CCCCCC);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CCCCCC));
+    background: -moz-linear-gradient(top, #FFFFFF, #CCCCCC);
     border: 1px solid #666666;
     box-shadow: inset 0 0 1px 1px #777777;
 }
 
 #profile .form_button_disabled {
     color: #A4A4A4;
-    border: solid 1px #afafaf;
+    border: solid 1px #AFAFAF;
 }
 
 #profile .form_button_disabled:hover {
     color: #A4A4A4;
-    background: #f0f0f0;
+    background: #F0F0F0;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#d1d1d1');
     background: -ms-linear-gradient(top, #F7F7F7 1%, #D1D1D1 100%);
-    background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#d1d1d1));
-    background: -moz-linear-gradient(top, #f7f7f7, #d1d1d1);
-    border: solid 1px #afafaf;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F7F7F7), to(#D1D1D1));
+    background: -moz-linear-gradient(top, #F7F7F7, #D1D1D1);
+    border: solid 1px #AFAFAF;
 }
 
 #profile .form_button a,
@@ -386,8 +386,8 @@
     border: 1px solid #AAAAAA;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#CCCCCC');
     background: -ms-linear-gradient(top, #FFFFFF 1%, #CCCCCC 100%);
-    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#CCCCCC));
-    background: -moz-linear-gradient(top, #ffffff, #CCCCCC);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CCCCCC));
+    background: -moz-linear-gradient(top, #FFFFFF, #CCCCCC);
     border-radius: 5px;
     cursor: pointer;
     margin: 0;
@@ -469,82 +469,119 @@
     text-transform: capitalize;
 }
 
-
 /* tabs override */
 /* might be better to just bring in the jrElastic tabs styles */
 /* we dont get to do the fancy bootstrap nav stuff anyway */
 
 #profile .page_tab_bar {
-  padding-left: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    list-style: none;
 }
 
 #profile .page_tab_bar:before,
 #profile .page_tab_bar:after {
-  display: table;
-  content: " ";
+    display: table;
+    content: " ";
 }
 
 #profile .page_tab_bar:after {
-  clear: both;
+    clear: both;
 }
 
 #profile .nav:before,
 #profile .page_tab_bar:after {
-  display: table;
-  content: " ";
+    display: table;
+    content: " ";
 }
 
 #profile .page_tab_bar:after {
-  clear: both;
+    clear: both;
 }
 
 #profile .page_tab_bar > li {
-  position: relative;
-  display: block;
+    position: relative;
+    display: block;
 }
 
 #profile .page_tab_bar > li > a {
-  position: relative;
-  display: block;
-  padding: 10px 15px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
 }
 
 #profile .page_tab_bar > li > a:hover,
 #profile .page_tab_bar > li > a:focus {
-  text-decoration: none;
-  background-color: #eeeeee;
+    text-decoration: none;
+    background-color: #EEEEEE;
 }
 
-
 #profile .page_tab_bar {
-  border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #DDDDDD;
 }
 
 #profile .page_tab_bar > li {
-  float: left;
-  margin-bottom: -1px;
+    float: left;
+    margin-bottom: -1px;
 }
 
 #profile .page_tab_bar > li > a {
-  margin-right: 2px;
-  line-height: 1.428;
-  border: 1px solid transparent;
-  border-radius: 4px 4px 0 0;
+    margin-right: 2px;
+    line-height: 1.428;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
 }
 
 #profile .page_tab_bar > li > a:hover {
-  border-color: #eeeeee #eeeeee #dddddd;
+    border-color: #EEEEEE #EEEEEE #DDDDDD;
 }
 
 #profile .page_tab_bar > li.page_tab_active > a,
 #profile .page_tab_bar > li.page_tab_active > a:hover,
 #profile .page_tab_bar > li.page_tab_active > a:focus {
-  color: #555555;
-  cursor: default;
-  background-color: #ffffff;
-  border: 1px solid #ddd;
-  border-bottom-color: transparent;
+    color: #555555;
+    cursor: default;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-bottom-color: transparent;
 }
+
+/* profile customizations */
+#profile .fb-profile img.fb-image-lg {
+    z-index: 0;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#profile .fb-image-profile {
+    margin: -150px 10px 15px 35px;
+    z-index: 9;
+    width: 20%;
+}
+
+@media (max-width: 768px) {
+
+    #profile .fb-profile-text > h1 {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    #profile .fb-image-profile {
+        margin: -45px 10px 0px 25px;
+        z-index: 9;
+        width: 20%;
+    }
+}
+
+#profile .fb-config-btns {
+    margin-top:0;
+}
+#profile .header-box{
+    position: relative;
+}
+
+#profile {
+    margin-top:-20px;
+}
+

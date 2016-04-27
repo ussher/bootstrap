@@ -38,9 +38,9 @@
                             <li><a href="{$jamroom_url}/{jrCore_module_url module="jrCore"}/dashboard">{jrCore_lang skin=$_conf.jrCore_active_skin id="17" default="dashboard"}</a></li>
                         {/if}
                         <li class="dropdown">
-                            <a class="dropdown-toggle" id="admindd" role="button" data-toggle="dropdown" data-target="#"">{jrUser_home_profile_key key="profile_name"} <span class="caret"></span></a>
+                            <a class="dropdown-toggle" id="admindd" role="button" data-toggle="dropdown" data-target="#">{jrUser_home_profile_key key="profile_name"} <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu" aria-labelledby="admindd">
-                                <li><a href="{$jamroom_url}/{jrUser_home_profile_key key="profile_url"}">Home Profile</li>
+                                <li><a href="{$jamroom_url}/{jrUser_home_profile_key key="profile_url"}">Home Profile</a></li>
                                 {jrCore_skin_menu template="menu.tpl" category="user"}
                             </ul>
                         </li>

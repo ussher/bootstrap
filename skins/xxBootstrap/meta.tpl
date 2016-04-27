@@ -36,11 +36,14 @@ $(document).ready(function(){ldelim}
 {rdelim});
 </script>
 {/if}
+    <script>
+      var bsModal = $.fn.modal.noConflict();
+    </script>
 
     <!-- Bootstrap core CSS -->
-    <link href="{$jamroom_url}/skins/xxBootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="{$jamroom_url}/skins/xxBootstrap/contrib/bootstrap/css/bootstrap.css" rel="stylesheet">
     <!-- Bootstrap theme -->
-    <link href="{$jamroom_url}/skins/xxBootstrap/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="{$jamroom_url}/skins/xxBootstrap/contrib/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="{$jamroom_url}/skins/xxBootstrap/css/carousel.css" rel="stylesheet">
 

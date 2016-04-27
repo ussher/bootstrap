@@ -1,9 +1,11 @@
 {if isset($_items)}
+    <div class="list-group">
         {foreach $_items as $module => $entry}
             {if $entry.active == '1'}
-                <li class="active"><a href="{$entry.target}">{$entry.label}</a></li>
+                <a href="{$entry.target}" class="list-group-item active">{$entry.label}</a>
             {else}
-                <li><a href="{$entry.target}">{$entry.label}</a></li>
+                <a href="{$entry.target}" class="list-group-item">{$entry.label}</a>
             {/if}
         {/foreach}
+    </div>
 {/if}

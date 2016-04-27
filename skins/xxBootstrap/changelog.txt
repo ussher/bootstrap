@@ -1,4 +1,7 @@
 Bootstrap Skin changelog
 
+Version 1.1.0:
+ - Change: Changed to bootstrap 3.3.6 and re-arranged directory structure
+
 Version 1.0.0:
  - Initial Release

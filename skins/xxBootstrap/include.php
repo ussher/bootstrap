@@ -10,7 +10,7 @@ function xxBootstrap_skin_meta()
 {
     $_tmp = array(
         'name'        => 'xxBootstrap',
-        'version'     => '1.0.0',
+        'version'     => '1.1.0',
         'developer'   => 'The Jamroom Network, &copy;'. strftime('%Y'),
         'description' => 'a blank skin with bootstrap 3 CSS',
         'support'     => 'http://www.jamroom.net/'
@@ -29,9 +29,10 @@ function xxBootstrap_skin_init()
     jrCore_register_module_feature('jrCore','css','xxBootstrap','admin.css');
     jrCore_register_module_feature('jrCore','css','xxBootstrap','form.css');
     jrCore_register_module_feature('jrCore','css','xxBootstrap','profile.css');
+    jrCore_register_module_feature('jrCore','css','xxBootstrap','sitebuilder.css');
 
     // Register our Javascript files with the core
-    jrCore_register_module_feature('jrCore','javascript','xxBootstrap','bootstrap.min.js');
+    jrCore_register_module_feature('jrCore','javascript','xxBootstrap', APP_DIR .'/skins/xxBootstrap/contrib/bootstrap/js/bootstrap.min.js');
     jrCore_register_module_feature('jrCore','javascript','xxBootstrap','xxBootstrap.js');
     jrCore_register_module_feature('jrCore','javascript','xxBootstrap','holder.js');
 
