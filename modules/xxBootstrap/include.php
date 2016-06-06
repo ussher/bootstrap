@@ -78,9 +78,15 @@ function xxBootstrap_view_results_listener($_data, $_user, $_conf, $_args, $even
 function xxBootstrap_template_variables_listener($_data, $_user, $_conf, $_args, $event)
 {
 
-    if (!isset($_args['jr_template_directory']) && $_args['jr_template_directory'] != $_conf['jrCore_active_skin'] ) {
-        jrCore_set_flag('xxBootstrap_replace', true);
+    if (isset($_args['jr_template_directory']) || isset($_data['jr_template_directory'])) {
+        if ($_args['jr_template_directory'] != $_conf['jrCore_active_skin']) {
+            jrCore_set_flag('xxBootstrap_replace', true); // this template is not from the bootstrap skin.
+        }
+        if ($_data['jr_template_directory'] != $_conf['jrCore_active_skin']) {
+            jrCore_set_flag('xxBootstrap_replace', true); // this template is not from the bootstrap skin.
+        }
     }
+
     return $_data;
 }
 
@@ -94,7 +100,8 @@ function xxBootstrap_parsed_template_listener($_data, $_user, $_conf, $_args, $e
     $rep = jrCore_get_flag('xxBootstrap_replace');
     if ($rep) {
         $_rep = array(
-            'class="container"' => 'class="jrcontainer"',
+            'img_scale'         => 'img-responsive"',
+            'class="container"' => 'class="container-fluid"',
         );
         jrCore_delete_flag('xxBootstrap_replace');
         return strtr($_data, $_rep);
